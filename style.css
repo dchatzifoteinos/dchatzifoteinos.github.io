@@ -1,0 +1,46 @@
+.horizontal
+{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+}
+
+.labelsColumn
+{
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+    width: 50vh;
+    height: inherit;
+    background-color: lightgray;
+}
+
+.labelsRow
+{
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    justify-content: left;
+    background-color: inherit;
+}
+
+.labelName
+{
+    font-weight: bold;
+}
+
+.labelValue
+{
+    font-weight: normal;
+}
+
+.map
+{
+    height: inherit;
+    /* LEAFLET.JS DOCUMENTATION SAYS AN EXPLICIT HEIGHT IS NEEDED (EG 200PX), BUT THIS WORKS TOO */
+    width: 600px;
+    background-color: lawngreen;
+    
+}
